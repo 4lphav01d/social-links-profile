@@ -286,6 +286,8 @@
         font-size: 14px;
         background-color: #333;
         width: 100%;
+      }
+      a {
         text-decoration: none;
       }
 
@@ -300,13 +302,11 @@
       .contact-link:hover{
         background-color: hsl(75, 94%, 57%);
         color: #141414;
-        text-decoration: none;
 
       }
 
       .contact-link:focus-visible{
         background-color: hsl(75, 94%, 57%);
         color: #141414;
-        text-decoration: none;
 
       }
