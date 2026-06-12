@@ -1,0 +1,302 @@
+
+
+    @media screen and (max-width: 375px) {
+        .body-container{
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter";
+        margin: auto;
+        width: 327px;
+        height: 579px;
+        padding: 24px;
+        background-color: #1f1f1f;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: space-between;
+      }
+
+        .display-pic {
+        border-radius: 50%;
+        width: 88px;
+        height: 88px;
+        /* margin-right: 145px;
+        margin-left: 145px; */
+        margin: auto;
+      }
+
+        .name-and-location {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 279px;
+      }
+        .user-name {
+        height: 36px;
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+
+      }
+
+        .user-location {
+        margin: auto;
+        /* margin-top: 4px; */
+        text-align: center;
+        width: 100%;
+        color: hsl(75, 94%, 57%);
+        height: 21px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .user-description {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        text-align: center;
+        width: 100%;
+      }
+
+        .user-contact-panel{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+        height: 289px;
+        width: 279px;
+      }
+
+        .contact-link {
+        height: 45px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        padding: 12px 0;
+        font-size: 14px;
+        background-color: #333;
+        width: 100%;
+      }
+
+      
+      footer {
+        margin: auto;
+        text-align: center;
+
+      }
+
+
+
+      
+    }
+
+@media screen and (max-width: 1440px) {
+    body {
+      background-color: #141414;
+      padding-top: 5%
+    }
+      .body-container{
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter";
+        margin: auto;
+        width: 384px;
+        height: 611px;
+        padding: 40px;
+        background-color: #1f1f1f;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: space-between;
+
+      }
+
+      .display-pic {
+        border-radius: 50%;
+        width: 88px;
+        height: 88px;
+        /* margin-right: 145px;
+        margin-left: 145px; */
+        margin: auto;
+      }
+
+      .name-and-location {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .user-name {
+        height: 36px;
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+
+      }
+      .user-location {
+        margin: auto;
+        /* margin-top: 4px; */
+        text-align: center;
+        width: 100%;
+        color: hsl(75, 94%, 57%);
+        height: 21px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .user-description {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .user-contact-panel{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+        height: 289px;
+      }
+
+      .contact-link {
+        height: 45px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        padding: 12px 0;
+        font-size: 14px;
+        background-color: #333;
+        width: 100%;
+      }
+
+      footer {
+        margin: auto;
+        text-align: center;
+
+      }
+
+      .contact-link:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: #141414;
+      }
+
+}
+
+
+
+
+    body {
+      background-color: #141414;
+      padding-top: 5%
+    }
+      .body-container{
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter";
+        margin: auto;
+        width: 384px;
+        height: 611px;
+        padding: 40px;
+        background-color: #1f1f1f;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: space-between;
+
+      }
+
+      .display-pic {
+        border-radius: 50%;
+        width: 88px;
+        height: 88px;
+        /* margin-right: 145px;
+        margin-left: 145px; */
+        margin: auto;
+      }
+
+      .name-and-location {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .user-name {
+        height: 36px;
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+
+      }
+      .user-location {
+        margin: auto;
+        /* margin-top: 4px; */
+        text-align: center;
+        width: 100%;
+        color: hsl(75, 94%, 57%);
+        height: 21px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .user-description {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .user-contact-panel{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 16px;
+        height: 289px;
+      }
+
+      .contact-link {
+        height: 45px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        padding: 12px 0;
+        font-size: 14px;
+        background-color: #333;
+        width: 100%;
+      }
+
+      footer {
+        margin: auto;
+        text-align: center;
+        color: aliceblue;
+        margin-top: 10px;
+
+      }
+
+      .contact-link:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: #141414;
+      }
