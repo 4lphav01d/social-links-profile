@@ -300,3 +300,8 @@
         background-color: hsl(75, 94%, 57%);
         color: #141414;
       }
+
+      .contact-link:focus-visible{
+        background-color: hsl(75, 94%, 57%);
+        color: #141414;
+      }
